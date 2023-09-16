@@ -10,6 +10,21 @@ body{
   background-attachment: fixed;
   background-size: 100%;
 }
+footer{
+  height: 200px;
+  position: absolute;
+   top: 5000px; 
+   left: 600px; 
+   bottom: 0px ;
+  font-size: 40px ;
+  width: 150%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  top: 700px;
+  right: 0px;
+  bottom: 10px;
+}
 h1 {
   font-family: 'Courier New', Courier, monospace;
   color: black;
@@ -158,4 +173,3 @@ li .mymenu:hover {
 .area input[type="submit"]:hover {
   background-color: #45a049;
 }
-
