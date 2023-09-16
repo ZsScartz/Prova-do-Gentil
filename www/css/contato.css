@@ -10,30 +10,27 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 }
+footer{
+  height: 200px;
+  position: absolute;
+   top: 5000px; 
+   left: 600px; 
+   bottom: 0px ;
+  font-size: 40px ;
+  width: 150%;
+  padding: 0px;
+  margin: 0px 0px 0px 0px;
+  position: absolute;
+  top: 700px;
+  right: 0px;
+  bottom: 10px;
+}
 h1 {
     font-family: 'Courier New', Courier, monospace;
     color: black;
     margin-left: 600px;
 }
-h3{
-    font-family: 'Courier New', Courier, monospace;
-    color: rgb(251, 251, 251);
-    margin-left: 550px;
-    position: relative;
-    right: 5%;
-}
-h4{
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
 
-}
-P{
-    font-family: 'Courier New', Courier, monospace;
-    color: white;
-    font-size: 12px;
-    font-weight: bold;
-
-}
 #area{
     position: relative;
     left: 38%;
@@ -45,11 +42,7 @@ P{
     position: absolute;
     display:block;
 }
-fieldset{
-    width: 320px;
-    height: 530px;
-    background-color: rgba(136, 136, 136, 0.781);
-}
+
 header{
   padding: 0.000000000000000001px;
   background-color: black;
@@ -95,22 +88,32 @@ li .mymenu:hover {
 #content-wrap {
   padding-bottom: 2.5rem;  
 }
-  footer{
-    height: 200px;
-    position: absolute;
-     top: 5000px; 
-     left: 600px; 
-     bottom: 0px ;
-    font-size: 40px ;
-    width: 150%;
-    padding: 0px;
-    margin: 0px 0px 0px 0px;
-    position: absolute;
-    top: 700px;
-    right: 0px;
-    bottom: 10px;
+
     
+fieldset{
+  width: 320px;
+  height: 530px;
+  background-color: rgba(136, 136, 136, 0.781);
+}
     
+h3{
+  font-family: 'Courier New', Courier, monospace;
+  color: rgb(251, 251, 251);
+  margin-left: 550px;
+  position: relative;
+  right: 5%;
+}
+h4{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+
+}
+P{
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+
 }
 .area {
   max-width: 400px;
@@ -153,9 +156,4 @@ li .mymenu:hover {
 
 .area input[type="submit"]:hover {
   background-color: #45a049;
-}
-
-li .mymenu:hover {
-  
-  border-bottom:4px solid #4c4c4c;
 }
