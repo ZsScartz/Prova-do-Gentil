@@ -154,3 +154,8 @@ li .mymenu:hover {
 .area input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+li .mymenu:hover {
+  
+  border-bottom:4px solid #4c4c4c;
+}

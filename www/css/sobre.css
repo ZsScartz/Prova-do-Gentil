@@ -45,6 +45,7 @@ header{
    -webkit-border-box: 0 1px 0 0 #4c4c4c;
    
   }
+  
   footer{
     height: 200px;
     position: absolute;
@@ -65,4 +66,8 @@ header{
 .swiper{
     height: 100vh;
     width: 100vw;
+}
+li .mymenu:hover {
+  
+  border-bottom:4px solid #4c4c4c;
 }
