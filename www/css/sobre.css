@@ -72,3 +72,32 @@ li .mymenu:hover {
   border-bottom:4px solid #4c4c4c;
 }
 
+.swiper-container {
+  width: 100%;
+  max-width: 600px; 
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  display: block; 
+  margin: 0 auto; 
+}
+p{
+  text-align: center;
+  z-index: 2; 
+  position: absolute;
+  top: 85%; 
+  left: 50%; 
+  transform: translate(-50%, -50%);
+}
+.quadrado {
+  width: 800px;
+  height: 100px; 
+  background-color: rgb(255, 255, 255); 
+  border-radius: 25%;
+  position: absolute; 
+  top: 90%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  z-index: 0; 
+}

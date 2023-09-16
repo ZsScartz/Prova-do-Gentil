@@ -33,6 +33,17 @@
             </fieldset>
         </div>
     </form>
-    
-</body>
+    <script>
+        const formulario = document.querySelector("form")
+        const ul = document.querySelector("ul")
+        
+        formulario.onsubmit = (event) =>{
+        event.preventDefault()
+        const li = ul.querySelector("li")
+        li.cloneNode()
+        
+        }
+        
+            </script>
+        </body>
 </html>
