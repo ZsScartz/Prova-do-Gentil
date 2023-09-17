@@ -90,21 +90,7 @@ li .mymenu {
   color: #ffffff;
   -webkit-border-box: 0 1px 0 0 #4c4c4c;
 }
-footer {
-  height: 200px;
-  position: absolute;
-  top: 5000px;
-  left: 600px;
-  bottom: 0px;
-  font-size: 40px;
-  width: 150%;
-  padding: 0px;
-  margin: 0px 0px 0px 0px;
-  position: absolute;
-  top: 700px;
-  right: 0px;
-  bottom: 10px;
-}
+
 li .mymenu:hover {
   border-bottom: 4px solid #4c4c4c;
 }
