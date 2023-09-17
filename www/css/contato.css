@@ -135,7 +135,7 @@ li .mymenu:hover {
   margin-bottom: 20px;
 }
 
-.area input[type="submit"] {
+.area input[type="submit"]  {
   width: 100%;
   padding: 10px;
   background-color: #4caf50;
@@ -146,5 +146,19 @@ li .mymenu:hover {
 }
 
 .area input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.area input[type="reset"]  {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.area input[type="reset"]:hover {
   background-color: #45a049;
 }
