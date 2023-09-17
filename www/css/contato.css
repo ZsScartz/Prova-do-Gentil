@@ -3,20 +3,19 @@
   padding: 0%;
   box-sizing: border-box;
 }
-body{
-  
+body {
   background-image: url(https://imagens.ebc.com.br/93Xdc8_53zvubO_xEpWsElgveEE=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/2880px-pedro_americo_-_independencia_ou_morte_-_cores_ajustadas_0.jpg?itok=yadd99j9);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
 }
-footer{
+footer {
   height: 200px;
   position: absolute;
-   top: 5000px; 
-   left: 600px; 
-   bottom: 0px ;
-  font-size: 40px ;
+  top: 5000px;
+  left: 600px;
+  bottom: 0px;
+  font-size: 40px;
   width: 150%;
   padding: 0px;
   margin: 0px 0px 0px 0px;
@@ -26,86 +25,78 @@ footer{
   bottom: 10px;
 }
 h1 {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   color: black;
   margin-left: 600px;
 }
-h3{
-  font-family: 'Courier New', Courier, monospace;
+h3 {
+  font-family: "Courier New", Courier, monospace;
   color: black;
   margin-left: 350px;
 }
-h4{
-  font-family: 'Courier New', Courier, monospace;
+h4 {
+  font-family: "Courier New", Courier, monospace;
   color: white;
-
 }
-P{
-  font-family: 'Courier New', Courier, monospace;
+P {
+  font-family: "Courier New", Courier, monospace;
   color: white;
   font-size: 12px;
   font-weight: bold;
  
 
 }
-#area{
+#area {
   position: relative;
   left: 38%;
   top: 29%;
   width: 320px;
   height: 270px;
 }
-#area #formulario{
+#area #formulario {
   position: absolute;
-  display:block;
+  display: block;
 }
-fieldset{
+fieldset {
   width: 320px;
   height: 530px;
   background-color: rgba(136, 136, 136, 0.781);
 }
-header{
+header {
   padding: 0.000000000000000001px;
   background-color: black;
-      border-width: 0;
-      border-style: none;
-      border-color: transparent;
-    
+  border-width: 0;
+  border-style: none;
+  border-color: transparent;
 }
 ul {
-    
-  width:100%;
-  float:left; 
-  text-align:center;
+  width: 100%;
+  float: left;
+  text-align: center;
   background: #0b1e2e;
   margin-top: 0;
- 
 }
- 
+
 li {
- 
   padding-right: 20px;
   display: inline-block;
-  list-style:none;
- 
+  list-style: none;
 }
- 
+
 li .mymenu {
- 
- font-family: 'Courier New', Courier, monospace;
- font-size: 16px;
- text-decoration: none;
- color:#ffffff;
- -webkit-border-box: 0 1px 0 0 #4c4c4c;
- 
+  font-family: "Courier New", Courier, monospace;
+  font-size: 16px;
+  text-decoration: none;
+  color: #ffffff;
+  -webkit-border-box: 0 1px 0 0 #4c4c4c;
 }
-footer{
+footer {
   height: 200px;
   position: absolute;
-   top: 5000px; 
-   left: 600px; 
-   bottom: 0px ;
-  font-size: 40px ;
+  top: 5000px;
+  left: 600px;
+  bottom: 0px;
+  font-size: 40px;
   width: 150%;
   padding: 0px;
   margin: 0px 0px 0px 0px;
@@ -113,30 +104,27 @@ footer{
   top: 700px;
   right: 0px;
   bottom: 10px;
-  
 }
 li .mymenu:hover {
-  
-  border-bottom:4px solid #4c4c4c;
+  border-bottom: 4px solid #4c4c4c;
 }
 
-
-#area{
+#area {
   position: relative;
   left: 38%;
   top: 29%;
   width: 320px;
   height: 270px;
 }
-#area #formulario{
+#area #formulario {
   position: absolute;
-  display:block;
+  display: block;
 }
 .area {
   max-width: 400px;
   margin: 0 auto;
   padding: 20px;
-  
+
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
