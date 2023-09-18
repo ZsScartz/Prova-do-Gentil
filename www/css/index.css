@@ -8,6 +8,8 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100%;
+  min-height: 150vh;
+
 }
 h1 {
   position: absolute;
@@ -58,11 +60,38 @@ li .mymenu:hover {
 }
 
 .fundo {
-    position: absolute;
-    right: 28%;
-    top: 50px;
-    width: 600px;
-    height: 850px;
-    background-color: #0301136b;
-    border-radius: 20%;
+  position: absolute;
+  right: 28%;
+  top: 50px;
+  width: 650px;
+  height: 850px;
+  background-color: #03011385;
+  border-radius: 20%;
+}
+.relogio {
+  display: flex;
+  color: rgb(255, 255, 255);
+  font-size: 2em;
+  position: absolute;
+  top: 25px;
+  right: 5%;
+  background-color: rgba(0, 0, 0, 0.664);
+  border-radius: 30%;
+}
+
+div {
+  padding: 0.2em;
+}
+.footer {
+  background-color: black;
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  top: 147vh;
+  width: 100%;
+  padding: 10px 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 30px 0;
 }
